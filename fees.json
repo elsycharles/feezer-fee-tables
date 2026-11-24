@@ -1,0 +1,364 @@
+{
+  "updatedAt": "2025-10-14",
+  "currency": "MGA",
+  "note": "Fixed fees in Ariary charged to the sender. Amounts are the amount sent (min and max included).",
+  "providers": [
+    {
+      "name": "YAS",
+      "description": "Principal opérateur télécom de Madagascar, anciennement Telma, offrant la 5G, la fibre et la plus large couverture nationale sous le groupe Axian Telecom.",
+      "icon": "phone_android",
+      "intervals": [
+        {
+          "min": 100,
+          "max": 1000,
+          "fee": 100,
+          "type": "fixed"
+        },
+        {
+          "min": 1001,
+          "max": 5000,
+          "fee": 175,
+          "type": "fixed"
+        },
+        {
+          "min": 5001,
+          "max": 10000,
+          "fee": 350,
+          "type": "fixed"
+        },
+        {
+          "min": 10001,
+          "max": 20000,
+          "fee": 700,
+          "type": "fixed"
+        },
+        {
+          "min": 20001,
+          "max": 25000,
+          "fee": 700,
+          "type": "fixed"
+        },
+        {
+          "min": 25001,
+          "max": 50000,
+          "fee": 1500,
+          "type": "fixed"
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "fee": 2000,
+          "type": "fixed"
+        },
+        {
+          "min": 100001,
+          "max": 250000,
+          "fee": 3500,
+          "type": "fixed"
+        },
+        {
+          "min": 250001,
+          "max": 500000,
+          "fee": 4800,
+          "type": "fixed"
+        },
+        {
+          "min": 500001,
+          "max": 1000000,
+          "fee": 9000,
+          "type": "fixed"
+        },
+        {
+          "min": 1000001,
+          "max": 2000000,
+          "fee": 15000,
+          "type": "fixed"
+        },
+        {
+          "min": 2000001,
+          "max": 3000000,
+          "fee": 20000,
+          "type": "fixed"
+        },
+        {
+          "min": 3000001,
+          "max": 4000000,
+          "fee": 25000,
+          "type": "fixed"
+        },
+        {
+          "min": 4000001,
+          "max": 5000000,
+          "fee": 30000,
+          "type": "fixed"
+        }
+      ]
+    },
+    {
+      "name": "ORANGE",
+      "description": "Groupe mondial de télécommunications offrant à Madagascar des services mobiles et Internet complets pour particuliers et entreprises.",
+      "icon": "phone_android",
+      "intervals": [
+        {
+          "min": 200,
+          "max": 1000,
+          "fee": 100,
+          "type": "fixed"
+        },
+        {
+          "min": 1001,
+          "max": 5000,
+          "fee": 140,
+          "type": "fixed"
+        },
+        {
+          "min": 5001,
+          "max": 10000,
+          "fee": 275,
+          "type": "fixed"
+        },
+        {
+          "min": 10001,
+          "max": 20000,
+          "fee": 500,
+          "type": "fixed"
+        },
+        {
+          "min": 20001,
+          "max": 25000,
+          "fee": 650,
+          "type": "fixed"
+        },
+        {
+          "min": 25001,
+          "max": 50000,
+          "fee": 1300,
+          "type": "fixed"
+        },
+        {
+          "min": 50001,
+          "max": 100000,
+          "fee": 1900,
+          "type": "fixed"
+        },
+        {
+          "min": 100001,
+          "max": 250000,
+          "fee": 3400,
+          "type": "fixed"
+        },
+        {
+          "min": 250001,
+          "max": 500000,
+          "fee": 4800,
+          "type": "fixed"
+        },
+        {
+          "min": 500001,
+          "max": 1000000,
+          "fee": 8700,
+          "type": "fixed"
+        },
+        {
+          "min": 1000001,
+          "max": 2000000,
+          "fee": 14700,
+          "type": "fixed"
+        },
+        {
+          "min": 2000001,
+          "max": 3000000,
+          "fee": 19600,
+          "type": "fixed"
+        },
+        {
+          "min": 3000001,
+          "max": 4000000,
+          "fee": 24500,
+          "type": "fixed"
+        },
+        {
+          "min": 4000001,
+          "max": 5000000,
+          "fee": 29400,
+          "type": "fixed"
+        },
+        {
+          "min": 5000001,
+          "max": 6000000,
+          "fee": 34300,
+          "type": "fixed"
+        },
+        {
+          "min": 6000001,
+          "max": 7000000,
+          "fee": 39200,
+          "type": "fixed"
+        },
+        {
+          "min": 7000001,
+          "max": 8000000,
+          "fee": 44100,
+          "type": "fixed"
+        },
+        {
+          "min": 8000001,
+          "max": 9000000,
+          "fee": 49000,
+          "type": "fixed"
+        },
+        {
+          "min": 9000001,
+          "max": 10000000,
+          "fee": 53900,
+          "type": "fixed"
+        }
+      ]
+    },
+    {
+      "name": "AIRTEL",
+      "description": "Opérateur majeur en Afrique, misant sur la 4G et les services financiers mobiles, présent activement à Madagascar.",
+      "icon": "phone_android",
+      "intervals": [
+        {
+          "min": 300,
+          "max": 1000,
+          "fee": 100,
+          "type": "fixed"
+        },
+        {
+          "min": 1001,
+          "max": 5000,
+          "fee": 140,
+          "type": "fixed"
+        },
+        {
+          "min": 5001,
+          "max": 10000,
+          "fee": 275,
+          "type": "fixed"
+        },
+        {
+          "min": 10001,
+          "max": 20000,
+          "fee": 550,
+          "type": "fixed"
+        },
+        {
+          "min": 20001,
+          "max": 25000,
+          "fee": 650,
+          "type": "fixed"
+        },
+        {
+          "min": 25001,
+          "max": 30000,
+          "fee": 1300,
+          "type": "fixed"
+        },
+        {
+          "min": 30001,
+          "max": 35000,
+          "fee": 1300,
+          "type": "fixed"
+        },
+        {
+          "min": 35001,
+          "max": 40000,
+          "fee": 1300,
+          "type": "fixed"
+        },
+        {
+          "min": 40001,
+          "max": 50000,
+          "fee": 1300,
+          "type": "fixed"
+        },
+        {
+          "min": 50001,
+          "max": 60000,
+          "fee": 1900,
+          "type": "fixed"
+        },
+        {
+          "min": 60001,
+          "max": 100000,
+          "fee": 1900,
+          "type": "fixed"
+        },
+        {
+          "min": 100001,
+          "max": 250000,
+          "fee": 3400,
+          "type": "fixed"
+        },
+        {
+          "min": 250001,
+          "max": 500000,
+          "fee": 4800,
+          "type": "fixed"
+        },
+        {
+          "min": 500001,
+          "max": 1000000,
+          "fee": 8800,
+          "type": "fixed"
+        },
+        {
+          "min": 1000001,
+          "max": 2000000,
+          "fee": 14700,
+          "type": "fixed"
+        },
+        {
+          "min": 2000001,
+          "max": 3000000,
+          "fee": 19600,
+          "type": "fixed"
+        },
+        {
+          "min": 3000001,
+          "max": 4000000,
+          "fee": 24500,
+          "type": "fixed"
+        },
+        {
+          "min": 4000001,
+          "max": 5000000,
+          "fee": 29400,
+          "type": "fixed"
+        },
+        {
+          "min": 5000001,
+          "max": 6000000,
+          "fee": 34300,
+          "type": "fixed"
+        },
+        {
+          "min": 6000001,
+          "max": 7000000,
+          "fee": 39200,
+          "type": "fixed"
+        },
+        {
+          "min": 7000001,
+          "max": 8000000,
+          "fee": 44100,
+          "type": "fixed"
+        },
+        {
+          "min": 8000001,
+          "max": 9000000,
+          "fee": 49000,
+          "type": "fixed"
+        },
+        {
+          "min": 9000001,
+          "max": 10000000,
+          "fee": 53900,
+          "type": "fixed"
+        }
+      ]
+    }
+  ]
+}
