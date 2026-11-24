@@ -100,3 +100,20 @@ python -m feezer_tables.build --check  # validate fees.json
 
 Fees are the operators' public prices; always confirm with the operator before
 an important transfer.
+
+## License
+
+Copyright (C) 2025-2026 Elsy Charles.
+
+* **Data** — `fees.json` and `sources/*.json` are open data under
+  [CC BY-SA 4.0](LICENSE-DATA): you may reuse them, including commercially, if
+  you credit “Feezer fee tables, https://github.com/elsycharles/feezer-fee-tables”
+  and share your derived data under the same license. Both values are also in
+  `fees.json` (`license`, `attribution`).
+* **Code** — the scraper (`feezer_tables/`, `tests/`) is free software under the
+  [GNU General Public License v3.0](LICENSE) or any later version.
+
+The grids are read from the operators' public rates and provided as is,
+without warranty: an operator can change its fees at any time, so check them
+before a transaction. MVola, Orange Money and Airtel Money are trademarks of
+their respective owners; this project is not affiliated with any operator.
