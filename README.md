@@ -2,8 +2,8 @@
 
 Mobile money fee grids for Madagascar, read every day from the operators'
 official websites and published in [`fees.json`](fees.json) for the
-[Feezer](https://github.com/elsycharles/fee_minimizer) app
-("Update fees from the internet").
+[Feezer](https://github.com/elsycharles/feezer) app
+(the "Update the fees" action).
 
 ```
 https://raw.githubusercontent.com/elsycharles/feezer-fee-tables/main/fees.json
